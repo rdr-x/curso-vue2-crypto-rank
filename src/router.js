@@ -23,7 +23,7 @@ export default new Router({
     {
       path: '/coin/:id',
       name: 'coin-detail',
-      component: CoinDetail
+      component: CoinDetail,
     },
     {
       path: '*',
